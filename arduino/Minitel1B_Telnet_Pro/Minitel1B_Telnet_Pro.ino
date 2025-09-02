@@ -134,7 +134,7 @@ void setup() {
   debugBegin(115200);
   debugPrintln("----------------");
   debugPrintln("Debug ready");
-  debugPrintf("RESET_REASON = %d\n", ESP_RST_SW, reset_reason);
+  debugPrintf("RESET_REASON = %d\n", reset_reason);
 
   // Minitel setup
   // (don't) teletelMode();
